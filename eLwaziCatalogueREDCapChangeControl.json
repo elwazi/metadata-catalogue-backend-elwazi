@@ -1,0 +1,10 @@
+[
+    {
+        "release_date": "2024-07-24",
+        "version": "2.0.00",
+        "version_type": "REDCap Project Design",
+        "log_type": "REDCap Project Changes",
+        "log_category": "Multiple codebook and programming changes",
+        "description": "A new variable was added to replace the d_category variable which was a single select field for indicating the data types in a dataset (in the instrument Dataset Metadata). The new variable d_category_1 is a multi-select choicebox field (in the instrument Dataset Metadata) and allows users to select multiple data types for a single dataset. Some additional variables p_website; storage_link; listed below were modified from required to optional fields and variables (g_organism; g_method; g_design; i_organism) were recoded to accommodate standardised coding for ‘Other’. The branching logic, which displays fields based on category selected, was modified to reference the new or modified variables."
+    },
+]
